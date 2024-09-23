@@ -1,0 +1,91 @@
+/* App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #1a73e8;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+
+.lead-list {
+  flex: 1;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.lead-list h2 {
+  color: #1a73e8;
+  margin-top: 0;
+}
+
+.lead-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lead-list li {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.lead-list li:hover {
+  background-color: #f5f5f5;
+}
+
+.lead-detail {
+  flex: 2;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.lead-detail h2 {
+  color: #1a73e8;
+  margin-top: 0;
+}
+
+.lead-detail p {
+  margin: 10px 0;
+}
+
+.lead-detail strong {
+  color: #5f6368;
+}
+
+.refresh-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.refresh-button:hover {
+  background-color: #155db1;
+}
